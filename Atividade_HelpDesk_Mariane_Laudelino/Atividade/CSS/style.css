@@ -1,0 +1,9 @@
+/* Animação de piscar usada na prioridade Alta. */
+@keyframes piscar {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0.2; }
+}
+
+.piscando {
+    animation: piscar 1s infinite;
+}
